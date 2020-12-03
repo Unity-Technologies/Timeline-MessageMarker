@@ -61,7 +61,7 @@ public class MessageInspector : Editor
 
     void DrawMethodAndArguments(GameObject boundGO)
     {
-        var supportedMethods = Utilities.CollectSupportedMethods(boundGO).ToList();
+        var supportedMethods = Utilities.Methods.CollectSupportedMethods(boundGO).ToList();
         var dropdown = supportedMethods.Select(i => i.ToString()).ToList();
         dropdown.Add(k_NoFunction);
 
