@@ -12,7 +12,7 @@ public class MessageInspector : Editor
     const string k_OverloadWarning = "Some functions were overloaded in MonoBehaviour components and may not work as intended if used with Animation Events!";
     const string k_NoFunction = "No function";
     const string k_FunctionLabel = "Function: ";
-    const string k_MethodIsNotValid = "Method is not valid";
+    const string k_MethodIsNotValid = "Method is not valid. Add behaviours to Timeline GameObject with simple functions (they should show here).";
     
     SerializedProperty m_Time;
     SerializedProperty m_Method;
